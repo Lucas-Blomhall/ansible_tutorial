@@ -1,0 +1,2 @@
+Ger information om server1:
+ansible all -m gather_facts --limit server1@172.26.33.132
