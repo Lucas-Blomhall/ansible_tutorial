@@ -1,0 +1,9 @@
+---
+
+- hosts: server2@172.26.33.132
+  become: true
+  tasks:
+
+  - name: install apache2 package
+    apt: 
+      name: apache2

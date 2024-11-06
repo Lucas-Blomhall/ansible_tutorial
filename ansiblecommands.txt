@@ -10,3 +10,4 @@ Det 2 lösningar:
 1 Ena är att ändra så att Ansible jobbar på ip addressen: 172.26.33.132 istället för server1@172.26.33.132, server2@172.26.33.132, server3@172.26.33.132.
 2 Du ändrar så att dem har sudo access med Lucasb password som är dem alla är kopplade till. 
 3 lösning ändra lösenord till samma som sudo och ge dem sudo privilage. Easy? Ja
+lösning 3 fungerar
