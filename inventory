@@ -1,3 +1,13 @@
+[server]
 server1@172.26.33.132
 server2@172.26.33.132
 server3@172.26.33.132
+
+[server1]
+172.26.33.132 ansible_user=server1
+
+[server2]
+172.26.33.132 ansible_user=server2
+
+[server3]
+172.26.33.132 ansible_user=server3

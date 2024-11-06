@@ -1,9 +1,11 @@
 ---
 
-- hosts: server1@172.26.33.132
+- hosts: server
+  serial: 1
   become: true
   tasks:
 
   - name: install apache2 package
     apt: 
       name: apache2
+      state: present

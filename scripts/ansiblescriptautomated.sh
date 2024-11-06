@@ -7,3 +7,5 @@ SUDO_PASS="Tennringen59"
 ansible-playbook --extra-vars "ansible_become_password=$SUDO_PASS" /home/lucasb/ansible_tutorial/server1_install_apache.yml
 ansible-playbook --extra-vars "ansible_become_password=$SUDO_PASS" /home/lucasb/ansible_tutorial/server2_install_apache.yml
 ansible-playbook --extra-vars "ansible_become_password=$SUDO_PASS" /home/lucasb/ansible_tutorial/server3_install_apache.yml
+
+#                server1_install_apache.yml

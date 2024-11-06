@@ -7,15 +7,15 @@
     apt: 
       update_cache: yes
       
-  - name: Install apache2 on server1
+  - name: Remove apache2 on server1
     apt:
       name: apache2
-      state: latest
+      state: absent
 
-  - name: add php support for apache on server1
+  - name: Remove php support for apache on server1
     apt: 
       name: libapache2-mod-php
-      state: latest
+      state: absent
 
 - hosts: server2
   become: true
@@ -25,15 +25,15 @@
     apt: 
       update_cache: yes
       
-  - name: Install apache2 on server2
+  - name: Remove apache2 on server2
     apt:
       name: apache2
-      state: latest
+      state: absent
 
-  - name: add php support for apache on server2
+  - name: Remove php support for apache on server2
     apt: 
       name: libapache2-mod-php
-      state: latest
+      state: absent
 
 - hosts: server3
   become: true
@@ -43,12 +43,12 @@
     apt: 
       update_cache: yes
       
-  - name: Install apache2 on server3
+  - name: Remove apache2 on server3
     apt:
       name: apache2
-      state: latest
+      state: absent
 
-  - name: add php support for apache on server3
+  - name: Remove php support for apache on server3
     apt: 
       name: libapache2-mod-php
-      state: latest
+      state: absent
